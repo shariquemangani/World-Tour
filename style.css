@@ -1,0 +1,426 @@
+@import url('https://fonts.googleapis.com/css2?family=Fasthand&family=Roboto:wght@300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fasthand&family=Roboto:wght@300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fasthand&family=Roboto:wght@300;400;500&display=swap');
+
+* {
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+body {
+    margin: 80px;
+    font-family: 'Open Sans', sans-serif;
+    background-color: rgba(0, 0, 0, 0.911);
+    /* font-size: 62.5%; */
+}
+
+/* ////////////////////////////////   section 1 styling    ///////////////////////////////////////// */
+
+#section1 {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(main-bg.jpg) fixed no-repeat center;
+    background-size: cover;
+    color: white;
+    padding: 10px 70px;
+    box-shadow: 0px 0px 5px 2px rgb(128, 128, 128);
+    margin-bottom: 50px;
+}
+
+#section1 div.nav {
+    height: 70px;
+    margin-top: 30px;
+}
+
+#section1 div.nav div.logo{
+    display: inline-block;
+    margin-left: 20px;
+}
+
+#section1 div.nav h2 {
+    display: inline-block;
+}
+
+#section1 div.nav button.ham {
+    float: right;
+    /* margin-top: 5px; */
+    display: none;
+    background: none;
+    border: none;
+    font-size: 20px;
+}
+
+#section1 div.nav i::before {
+    display: block;
+    clear: both;
+}
+
+#section1 h2.headeing1 {
+    letter-spacing: 2px;
+    /* display: inline-block; */
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0px;
+    background-color: #ff4c15;
+    padding: 2px;
+    border-radius: 0px;
+    margin-right: -4.5px;
+}
+
+#section1 h2.headeing2 {
+    letter-spacing: 2px;
+    /* display: inline-block; */
+    color: #ff4c15;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0px;
+    background-color: white;
+    padding: 2px;
+    border-radius: 0px;
+}
+
+#section1 div.nav-items {
+    float: right;
+}
+
+#section1 div.nav-items::before {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+#section1 div.nav-items a {
+    color: white;
+    padding: 10px;
+    margin: 0px 10px;
+    display: inline-block;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 1px;
+}
+
+#section1 div.nav-items a:hover {
+    border: 1px solid #ff4c15;
+    padding: 9px;
+    border-radius: 5px;
+}
+
+#section1 div.div2 {
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 50%;
+
+}
+
+#section1 div.div2 h1 {
+    font-size: 50px;
+}
+
+#section1 div.div2 button {
+    padding: 15px 70px;
+    font-size: 18px;
+    background-color: #ff4c15;
+    margin-top: 40px;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 5px;
+    border: none;
+}
+
+#section1 div.div2 button a{
+    color: white;
+    
+}
+
+#section1 div.div2 button:hover {
+    background-color: rgb(223, 61, 12);
+}
+
+#section1 div.div3 {
+    margin: 80px 0px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+#section1 div.div3 h3{
+    line-height: 25px;
+}
+
+/* //////////////////  utility classes  ////////////////////////////// */
+.cisd {
+    /* border: 1px solid white; */
+    font-family: 'Open Sans', sans-serif;
+    padding: 20px;
+    /* margin: 30px 0px; */
+    width: 450px;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+}
+
+.num {
+    font-size: 30px;
+    margin: 10px 0px;
+    background-color: #ff4c15;
+    display: inline-block;
+    padding: 7px;
+    border-radius: 0px;
+}
+
+.cisd:hover {
+    box-shadow: 0px 0px 10px 0px #ff4c15;
+    transition: 0.5s;
+}
+
+.para {
+    line-height: 25px;
+}
+
+/* /////////////////////////////////////   RESPONSIVE  /////////////////////////////////////// */
+
+/* ///////////////   #section1 div.nav   ///////////////// */
+
+
+@media only screen and (max-width: 1300px) {
+    body {
+        margin: 70px;
+        transition: 0.5s;
+    }
+
+    #section1 div.nav h2 {
+        font-size: 20px;
+        transition: 0.5s;
+    }
+
+    #section1 div.nav-items {
+        font-size: 12px;
+        transition: 0.5s;
+    }
+}
+
+/* ///////////////   #section1 div.div2   ///////////////// */
+
+@media only screen and (max-width: 1300px) {
+    #section1 div.div2 h1 {
+        font-size: 40px;
+        transition: 0.5s;
+    }
+
+    #section1 div.div2 button {
+        padding: 11px 60px;
+        font-size: 15px;
+        transition: 0.5s;
+    }
+}
+
+/* ////////////////    #section1 div.div3  /////////////////// */
+
+@media only screen and (max-width: 1300px) {
+    #section1 div.div3 div.sub-div1 p {
+        padding: 5px;
+        font-size: 20px;
+        transition: 0.5s;
+    }
+
+    #section1 div.div3 div.sub-div2 p {
+        padding: 5px;
+        font-size: 20px;
+        transition: 0.5s;
+    }
+
+    #section1 div.div3 div.sub-div3 p {
+        padding: 5px;
+        font-size: 20px;
+        transition: 0.5s;
+    }
+
+    #section1 div.div3 div.sub-div1 h3 {
+        font-size: 18px;
+        transition: 0.5s;
+    }
+
+    #section1 div.div3 div.sub-div2 h3 {
+        font-size: 18px;
+        transition: 0.5s;
+    }
+
+    #section1 div.div3 div.sub-div3 h3 {
+        font-size: 18px;
+        transition: 0.5s;
+    }
+
+    #section1 div.div3 div.sub-div1 p.para {
+        font-size: 16px;
+        padding: 0px;
+        transition: 0.5s;
+    }
+
+    #section1 div.div3 div.sub-div2 p.para {
+        font-size: 16px;
+        padding: 0px;
+        transition: 0.5s;
+    }
+
+    #section1 div.div3 div.sub-div3 p.para {
+        font-size: 16px;
+        padding: 0px;
+        transition: 0.5s;
+    }
+
+    #section1 {
+        padding: 10px 50px;
+        transition: 0.5s;
+    }
+}
+
+/* ////////////////    #section1 div.nav  (1170px)     /////////////////// */
+
+@media only screen and (max-width: 1170px) {
+    body {
+        margin: 60px;
+        transition: 0.5s;
+    }
+
+    #section1 div.nav h2 {
+        font-size: 16px;
+        transition: 0.5s;
+    }
+
+    #section1 div.nav div.nav-items {
+        font-size: 10px;
+        transition: 0.5s;
+    }
+}
+
+/* ///////////////   #section1 div.div2  (1170px)      ///////////////// */
+
+@media only screen and (max-width: 1170px) {
+    #section1 div.div2 h1 {
+        font-size: 32px;
+        transition: 0.5s;
+    }
+
+    #section1 div.div2 h4 {
+        font-size: 14px;
+        transition: 0.5s;
+    }
+
+    #section1 div.div2 button {
+        padding: 11px 60px;
+        font-size: 15px;
+        transition: 0.5s;
+    }
+}
+
+
+/* ////////////////    #section1 div.div3  (1170px)    /////////////////// */
+
+@media only screen and (max-width: 1170px) {
+    #section1 div.div3 div.sub-div1 p {
+        padding: 3px;
+        font-size: 18px;
+        transition: 0.5s;
+    }
+
+    #section1 div.div3 div.sub-div2 p {
+        padding: 3px;
+        font-size: 18px;
+        transition: 0.5s;
+    }
+
+    #section1 div.div3 div.sub-div3 p {
+        padding: 3px;
+        font-size: 18px;
+        transition: 0.5s;
+    }
+
+    #section1 div.div3 div.sub-div1 h3 {
+        font-size: 16px;
+        transition: 0.5s;
+    }
+
+    #section1 div.div3 div.sub-div2 h3 {
+        font-size: 16px;
+        transition: 0.5s;
+    }
+
+    #section1 div.div3 div.sub-div3 h3 {
+        font-size: 16px;
+        transition: 0.5s;
+    }
+
+    #section1 div.div3 div.sub-div1 p.para {
+        font-size: 14px;
+        padding: 0px;
+        transition: 0.5s;
+    }
+
+    #section1 div.div3 div.sub-div2 p.para {
+        font-size: 14px;
+        padding: 0px;
+        transition: 0.5s;
+    }
+
+    #section1 div.div3 div.sub-div3 p.para {
+        font-size: 14px;
+        padding: 0px;
+        transition: 0.5s;
+    }
+
+    #section1 {
+        padding: 10px 30px;
+        transition: 0.5s;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    #section1 div.nav-items {
+        display: none;
+    }
+
+    #section1 div.nav button.ham {
+        display: block;
+    }
+    #section1 div.div2 {
+        width: 80%;
+        transition: 0.5s;
+    }
+}
+
+@media only screen and (max-width: 550px){
+    body {
+        margin: 50px;
+        transition: 0.5s;
+    }
+    #section1 div.div2 {
+        width: 90%;
+        transition: 0.5s;
+    }
+
+}
+
+@media only screen and (max-width: 450px){
+    body {
+        margin: 30px;
+        transition: 0.5s;
+    }
+    #section1 div.div2 {
+        width: 100%;
+        transition: 0.5s;
+    }
+
+}
+
+@media only screen and (max-width: 400px){
+    #section1 {
+        padding: 10px 10px;
+        transition: 0.5s;
+    } 
+}
+
